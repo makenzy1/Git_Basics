@@ -19,9 +19,9 @@ Replace <filename> with the name of the file you want to stage and replace "Your
 
   3. Push the changes to the remote repository using the git push command:
 
-     git push origin <branch-name>
+     git push origin branch-name
 
-     Replace <branch-name> with the name of the branch you want to push the changes to. If you're pushing to the main branch, you can use main instead of <branch>.
+     Replace "branch-name" with the name of the branch you want to push the changes to. If you're pushing to the main branch, you can use main instead of branch.
 
 **Here's a more detailed explanation:**
 
