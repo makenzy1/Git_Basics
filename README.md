@@ -11,17 +11,17 @@ Replace <directory> with the name of the directory that you want to turn into a 
 
   2. Stage and commit your changes:
 
-     git add <file>
+     git add <filename>
      git commit -m "Your commit message"
      <!-- Each commit does not store/hold the whole/entire infomation, only the changes  -->
 
-Replace <file> with the name of the file you want to stage and replace "Your commit message" with a meaningful message describing your changes.
+Replace <filename> with the name of the file you want to stage and replace "Your commit message" with a meaningful message describing your changes.
 
   3. Push the changes to the remote repository using the git push command:
 
-     git push origin <branch>
+     git push origin <branch-name>
 
-    Replace <branch> with the name of the branch you want to push the changes to. If you're pushing to the main branch, you can use main instead of <branch>.
+     Replace <branch-name> with the name of the branch you want to push the changes to. If you're pushing to the main branch, you can use main instead of <branch>.
 
 **Here's a more detailed explanation:**
 
