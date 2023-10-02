@@ -13,6 +13,7 @@ Replace <directory> with the name of the directory that you want to turn into a 
 
      git add <file>
      git commit -m "Your commit message"
+     <!-- Each commit does not store/hold the whole/entire infomation, only the changes  -->
 
 Replace <file> with the name of the file you want to stage and replace "Your commit message" with a meaningful message describing your changes.
 
@@ -47,6 +48,7 @@ git add: This command is used to stage changes for commit. It tells Git that you
 
 git commit: This command is used to save changes to the repository. It creates a new "commit" that includes all the changes that have been staged with the git add command. 
 Each commit includes a message that describes the changes that were made.
+<!-- If commit changes are made directly on github, always remember to do a "git pull --rebase origin branch-name" in your local repository -->
 
 git status: This command is used to check the current status of the repository. It shows which files have been modified, which files have been staged for commit, and which branch you are currently on. 
 This command is useful for getting a quick overview of the changes that have been made to the codebase.
