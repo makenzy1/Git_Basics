@@ -11,28 +11,28 @@ Replace <directory> with the name of the directory that you want to turn into a 
 
   2. Stage and commit your changes:
 
-     git add <filename>
-     git commit -m "Your commit message"
-     <!-- Each commit does not store/hold the whole/entire infomation, only the changes  -->
+    git add <filename>
+    git commit -m "Your commit message"
+   <!-- Each commit does not store/hold the whole/entire infomation, only the changes  -->
 
 Replace <filename> with the name of the file you want to stage and replace "Your commit message" with a meaningful message describing your changes.
 
   3. Push the changes to the remote repository using the git push command:
 
-     git push origin branch-name
+    git push origin branch-name
 
-     Replace "branch-name" with the name of the branch you want to push the changes to. If you're pushing to the main branch, you can use main instead of branch.
+ Replace "branch-name" with the name of the branch you want to push the changes to. If you're pushing to the main branch, you can use main instead of branch.
 
 **Here's a more detailed explanation:**
 
-    Initializing a Git repository: Use the git init command in the terminal (or Git Bash on Windows) to turn an existing directory into a Git repository. 
-    This will create a new .git subdirectory in the directory, which will store all the information about the repository, such as its commit history and configuration.
+   Initializing a Git repository: Use the git init command in the terminal (or Git Bash on Windows) to turn an existing directory into a Git repository. 
+   This will create a new .git subdirectory in the directory, which will store all the information about the repository, such as its commit history and configuration.
 
-    Adding and committing changes: Use the git add command to stage changes in your files, and the git commit command to commit the changes to the repository's history. 
-    The -m option allows you to specify a commit message that describes the changes.
+   Adding and committing changes: Use the git add command to stage changes in your files, and the git commit command to commit the changes to the repository's history. 
+   The -m option allows you to specify a commit message that describes the changes.
 
-    This will upload your changes to the remote repository, making them available for others to access. 
-    Note that you may need to enter your username and password for the hosting service if you're pushing changes to a repository that you don't own.
+   This will upload your changes to the remote repository, making them available for others to access. 
+   Note that you may need to enter your username and password for the hosting service if you're pushing changes to a repository that you don't own.
 
 Note that once you've committed changes to a Git repository, they are stored in the repository's history and can be retrieved at any time using the git log command. 
 This makes it easy to revert to previous versions of the code if necessary.
