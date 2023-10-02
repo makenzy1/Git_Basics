@@ -65,6 +65,7 @@ git branch: This command is used to create, list, or delete branches in a reposi
 git merge: This command is used to merge changes from one branch to another. It allows developers to combine the changes made in different branches and integrate them into the main branch.
 
 git pull: This command is used to retrieve changes from a remote repository and merge them with the local copy. It fetches changes from the remote repository and then automatically merges them with the current branch.
+<!-- Always remember to do a "git pull" when working in a team to make sure your changes(in your branch) are in sync with the main repo/branch -->
 
 git push: This command is used to upload changes to a remote repository. It sends changes made in the local repository to the remote repository, updating it with the new commits. 
 (The git push -u origin main command pushes the "main" branch to the remote repository named "origin". The -u option sets the upstream branch for the current branch.)
